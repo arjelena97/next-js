@@ -1,6 +1,6 @@
 This is NextJS app.
 
-npm start - run app
+npm run dev - run app
 localhost:3000
 
 npm run storybook - run storybook
