@@ -21,7 +21,6 @@
     "baseUrl": "./",
     "paths": {
       "@/*": ["./src/*"],
-      "FirstPage/*": ["src/app/FirstPage.tsx"]
     }
   },
   "include": [
