@@ -1,7 +1,6 @@
 import styles from './page.module.css'
 import Typography from '@mui/material/Typography';
-import Box from '@mui/material/Box';
-import { Button} from '@mui/material';
+import { Button, Box } from '@mui/material';
 import Link from 'next/link';
 
 export default function Home() {
