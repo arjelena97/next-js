@@ -26,8 +26,15 @@ const StyledButton = styled.button`
   }  
 `;
 
-const Button = ({ label, primary, secondary }) => {
-  return <StyledButton primary={primary} secondary={secondary}>{label}</StyledButton>;
+const Button = ({ label, primary, secondary, onClick }) => {
+  return (
+    <StyledButton
+      onClick={onClick}
+      primary={primary}
+      secondary={secondary}>
+      {label}
+    </StyledButton>
+  );
 };
 
 export default Button;
