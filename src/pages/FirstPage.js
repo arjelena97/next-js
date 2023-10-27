@@ -14,12 +14,12 @@ export default function FirstPage() {
         </Button>
       </Link>
       <Box sx={{ marginTop: "40px" }}>
-      <Image
-        src="/images/flowers.jpg"
-        alt="flowers"
-        width={800}
-        height={400}
-      />
+        <Image
+          src="/images/flowers.jpg"
+          alt="flowers"
+          width={800}
+          height={400}
+        />
       </Box>
     </Box>
   );
