@@ -3,6 +3,7 @@ const config = {
   stories: [
     "../src/components/Button.stories.js",
     "../src/components/Toast.stories.js",
+    "../src/components/Progress.stories.js",
   ],
   addons: [
     "@storybook/addon-links",
