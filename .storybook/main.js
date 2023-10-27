@@ -2,6 +2,7 @@
 const config = {
   stories: [
     "../src/components/Button.stories.js",
+    "../src/components/Toast.stories.js",
   ],
   addons: [
     "@storybook/addon-links",
