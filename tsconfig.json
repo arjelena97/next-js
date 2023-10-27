@@ -18,13 +18,17 @@
         "name": "next"
       }
     ],
+    "baseUrl": "./",
     "paths": {
-      "@/*": [
-        "./src/*",
-        "./src/FirstPage",
-      ]
+      "@/*": ["./src/*"],
+      "FirstPage/*": ["src/app/FirstPage.tsx"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/FirstPage.js"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+  ],
   "exclude": ["node_modules"]
 }

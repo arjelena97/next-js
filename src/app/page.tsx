@@ -22,9 +22,11 @@ export default function Home() {
     </Box> 
     </Box>
     <Link href="/FirstPage">
-    <Box sx={{ textAlign: 'center' }}>
-    <Button variant="contained" color="primary" className={styles.button}>LLAAL</Button>
-    </Box>
+      <Box sx={{ display: 'flex', justifyContent: 'center' }}>
+        <Button variant="contained" color="primary">
+          NEXT PAGE
+        </Button>
+      </Box>
     </Link>
     </>
   )
